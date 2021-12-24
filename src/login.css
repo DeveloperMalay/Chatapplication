@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: transparent;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.name {
+  margin: 20px;
+  height: 42px;
+  width: 256px;
+  padding: 10px;
+  border-radius: 24px;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.password {
+  margin: 20px;
+  height: 42px;
+  width: 256px;
+  padding: 10px;
+  border-radius: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+.btn {
+  margin: 20px;
+  height: 42px;
+  width: 256px;
+  padding: 10px;
+  border-radius: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background: hsla(0, 0%, 91%, 0.937);
+}
+
+input:focus {
+  outline: none;
+}
+
